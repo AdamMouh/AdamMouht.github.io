@@ -1,4 +1,4 @@
-/* ===== Reset & Base ===== */
+/* ===== Reset & Base ===== */ 
 * {
   margin: 0;
   padding: 0;
@@ -167,6 +167,18 @@ body {
 .icon:hover {
   color: #b551c7;
   transform: scale(1.2);
+}
+
+/* ===== Animations Fade-in ===== */
+.appear {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: all 0.6s ease-out;
+}
+
+.card, .hero h1, .hero p {
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 /* ===== Responsive ===== */
